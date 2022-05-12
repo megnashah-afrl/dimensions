@@ -43,7 +43,7 @@ NUM_IMAGENET_CLS = 1000
 
 def main(args):
   #Create out directory is it doesn't exist
-  if not os.path.exists(args.save_dir):
+  if (not os.path.exists(args.save_dir)):
     os.mkdir(args.save_dir)
   else:
    if "test" not in args.save_dir and not args.add:

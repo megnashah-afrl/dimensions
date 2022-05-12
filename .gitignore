@@ -142,3 +142,5 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+**/*.pt
+generate_data/samples/basenji_16/config.json
